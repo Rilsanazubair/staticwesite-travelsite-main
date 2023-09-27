@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.banner-image{
+   width: 100%;
+    height: 100vh; 
+    background: url('https://images.unsplash.com/photo-1605649487212-47bdab064df7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFuYWxpfGVufDB8fDB8fHww&w=1000&q=80');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    
+    
+}
+.heading{
+    font-family: sans-serif;
+}
+.card-body p{
+    text-align: justify;
+}
+.card-box{
+    width:"800px"
+}
+
+
+#packages .card:hover{
+    transform: scale(1.1);
+}
+
+
+
+.about-heading{
+    background-image: url('https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+
+
+}
+.package-name{
+    color: rgb(233, 114, 134);
+    font-weight: bold;
+    font-family:cursive
+}
+.about-desc-background{
+    background-image: url('https://media.istockphoto.com/id/1342166927/photo/abstract-pink-background.jpg?b=1&s=612x612&w=0&k=20&c=L9luZcSuSvDNzhSIJG6HvxlbR6CEF2wHpgh2uqd0mOQ=');
+    background-size: cover;
+    background-position: center;
+
+  
+  
+   
+}
+.about-desc{
+    text-align: justify;
+    overflow: hidden;
+   
+    
+}
+
+.person{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+  
+}
+
+.reviews{
+    background-image: url('https://images.pexels.com/photos/7130537/pexels-photo-7130537.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#contact{
+    margin-top: 50px;
+}
+.heading-border{
+    width: 40%;
+border-bottom: 2px solid #11bbba;
+margin: 15px 0;
+}
+
+.info-border{
+    width: 40%;
+border-bottom: 2px solid #11bbba;
+margin: 15px 0;
+}
+.icon-set{
+   margin-top: 1.2rem
+}
+.icon i{
+    font-size: 30px;
+   padding: 18px;
+   color:  #11bbba;;
+   
+   
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(231, 222, 224);
+}
+footer{
+    background-color: #002d2b;
+}
+footer a{
+   text-decoration: none; 
+   color: #ffffff; 
+   font-size: 16px;
+   
+}
+footer .color-white{
+    color: white;
+}
+.footer-icons{
+    font-size: 25px;
+   margin-left: 10px;
+
+   
+}
+.copyright{
+    color: white;
+    background-color:#011c1a;
+    text-align: center;
+    font-size: 16px;
+     padding: 8px;
+   
+}
+#destination{
+    margin-top: 100px;
+ 
+    
+}
+.card-destination{
+    position: relative;
+    
+}
+.background-details{
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+  
+   
+}
+.border-heading{
+    width: 50%;
+    border-bottom: 3px solid #11bbba;
+    
+}
+.background-details p{
+   font-size: 20px;
+}
+.background-details:hover{
+    opacity: 1;
+}
+.background-img1{
+    background: url('https://images.unsplash.com/photo-1552051263-6eb5bb6905b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHRyaXAlMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+}
+.background-img2{
+    background: url('https://media.istockphoto.com/id/1135164844/photo/nepal-girl-spreads-her-hands-wide-manang-valley.webp?b=1&s=170667a&w=0&k=20&c=0T3BVAkLCmyhhHzF-ODedLG8e94KqxSNtGc6X1U_Vdw=');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img3{
+    background: url('https://media.istockphoto.com/id/1382803490/photo/indian-temple.webp?b=1&s=170667a&w=0&k=20&c=fytb-MKYz_4uCSIl1pG1FX3OnMqwGj3h1rqG-W7rjm4=');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img4{
+    background: url('https://images.unsplash.com/photo-1593417033920-3c04818ee8a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFsbGVwcGV5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img5{
+    background: url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hlbm5haXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+
+}
+.background-img6{
+    background: url('https://images.pexels.com/photos/15983035/pexels-photo-15983035/free-photo-of-beach-umbrellas-on-beach-in-town.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+
+}
+
